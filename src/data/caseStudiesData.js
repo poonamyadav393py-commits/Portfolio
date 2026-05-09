@@ -1,0 +1,327 @@
+export const caseStudiesData = {
+  fiteats: {
+    title: 'FitEats',
+    subtitle: 'Fitness Food Delivery App',
+    heroImage: '/images/fiteats.png',
+    overview: 'FitEats is a mobile food delivery app that helps fitness-focused users quickly discover, customize, and order healthy meals that match their dietary goals—such as keto, high-protein, or low-carb diets. The app also shows macronutrient details, prep time, and calorie info so users can make smart decisions on the go.',
+    role: 'UI/UX Designer',
+    duration: '1 month',
+    problem: 'Most food delivery apps prioritize variety and convenience but do not offer quick access to truly healthy, goal-based meals. Fitness-focused users often struggle to filter out unhealthy choices, check nutritional value, or reorder clean meals with ease.',
+    targetAudience: 'Health-conscious individuals in the age group of 25-40 years old with a busy lifestyle—such as gym-goers, working professionals, and fitness enthusiasts—who want to eat clean but don’t have time to cook or shop. They value high-protein, low-carb, and diet-specific options.',
+    goals: [
+      'Help users find healthy meals faster with smart filters & personalization',
+      'Improve order retention by offering meal plans and reorders',
+      'Create a clean, intuitive, and mobile-first UI for easy food selection',
+      'Enable users to filter meals by macros, diets, and prep time'
+    ],
+    designProcess: ['Empathize', 'Define', 'Ideate', 'Prototype', 'Test'],
+    research: {
+      methodology: 'Conducted offline surveys with 10 participants and brief user interviews to understand food ordering habits, health preferences, and expectations. Analyzed competitors like Zomato, Swiggy, and EatClub to identify gaps such as lack of structured meal plans and clear nutritional information.',
+      insights: [
+        'Users struggle with too many unhealthy options (80% biggest frustration)',
+        'Lack of clear nutritional information like calories/protein causes confusion (90% want caloric/macro info)',
+        'Time-consuming ordering process for busy professionals',
+        'Strong desire for weekly subscription plans tailored to diet/fitness goals (80% want weekly subscription)',
+        'Most users want customizable meals (60%) over readymade meals (30%)'
+      ],
+      painPoints: [
+        'Too many unhealthy options making it hard to find clean meals quickly.',
+        'Time-consuming ordering process every day.',
+        'No weekly meal subscription options.',
+        'Lack of clear nutritional information (calories, macros, ingredients).',
+        'Limited personalization for diet/fitness goals.'
+      ]
+    },
+    personas: [
+      {
+        name: 'Ayesha Singh',
+        age: '28 Years old',
+        occupation: 'Marketing Manager',
+        location: 'Pune',
+        image: '/Fiteats/Frame 1261154416.png',
+        description: 'Ayesha leads a busy lifestyle and follows a disciplined fitness routine (gym 5x a week). Her hectic schedule leaves her little time to cook, but she wants to eat clean and maintain her fitness goals.',
+        goals: ['Maintain a balanced and nutritious diet', 'Find ready-to-eat healthy meals', 'Save time on cooking/planning'],
+        frustrations: ['Too many unhealthy options on food apps', 'Nutrition info missing', 'Time-consuming daily planning']
+      },
+      {
+        name: 'Rohan Mehta',
+        age: '32 Years old',
+        occupation: 'Sr Software Developer',
+        location: 'Pune',
+        image: '/Fiteats/Frame 1261154417.png',
+        description: 'Rohan has a sedentary job but recently committed to fitness. He wants to track macros and eat clean, preferring simplicity and repeat convenience over browsing.',
+        goals: ['Lose weight and build lean muscle', 'Find high-protein, low-carb meals easily', 'Avoid the hassle of deciding every day'],
+        frustrations: ['Overwhelmed by choices', 'No fitness-tailored personalization', 'Decision fatigue from daily ordering']
+      }
+    ],
+    empathyMaps: [{
+      avatar: '/Fiteats/female-avatar.png',
+      says: [
+        '"I wish I could get healthy food without spending 20 minutes scrolling." Uses food delivery apps during lunch breaks',
+        '"Calories and protein info should be clearly mentioned."',
+        '"I\'m too busy to plan meals every day."'
+      ],
+      thinks: [
+        'I want to eat healthy but I can\'t waste time browsing through junk.',
+        'A weekly meal plan would save me so much time and effort'
+      ],
+      does: [
+        'Goes to the gym 5x a week, follows intermittent fasting',
+        '"I\'m too busy to plan meals every day."',
+        'Skips cooking on weekdays, orders mostly from apps'
+      ],
+      feels: [
+        'Feels guilty when she ends up ordering unhealthy food',
+        'Feels motivated to maintain her fitness and diet, but overwhelmed by choices'
+      ]
+    }, {
+      avatar: '/Fiteats/male-avatar.png',
+      says: [
+        '"I wish I could get healthy food without spending 20 minutes scrolling." Uses food delivery apps during lunch breaks',
+        '"Calories and protein info should be clearly mentioned."',
+        '"I\'m too busy to plan meals every day."'
+      ],
+      thinks: [
+        'I want to eat healthy but I can\'t waste time browsing through junk.',
+        'A weekly meal plan would save me so much time and effort'
+      ],
+      does: [
+        'Goes to the gym 5x a week, follows intermittent fasting',
+        '"I\'m too busy to plan meals every day."',
+        'Skips cooking on weekdays, orders mostly from apps'
+      ],
+      feels: [
+        'Feels guilty when he ends up ordering unhealthy food',
+        'Feels motivated to maintain his fitness and diet, but overwhelmed by choices'
+      ]
+    }],
+    journeyMap: [
+      { step: 'Decide what to eat', feelings: 'Hopeful', painPoints: 'No time for cooking, unsure where to find clean meals' },
+      { step: 'Search apps', feelings: 'Overwhelmed', painPoints: 'Unclear labels, no consistent nutrition info' },
+      { step: 'Compare items', feelings: 'Frustrated', painPoints: 'Time-consuming, lacks confidence in choices' },
+      { step: 'Eat & Track', feelings: 'Neutral/Tired', painPoints: 'No meal tracking, can\'t assess diet progress' }
+    ],
+    journeyMapImage: '/Fiteats/Frame 1261154701.png',
+    competitiveAnalysis: 'Analyzed Zomato, Swiggy, and EatClub. Key gaps identified: lack of structured meal plans, missing clear nutritional/ingredient information, and lack of healthy food filters/personalization.',
+    competitiveAnalysisImage: '/Fiteats/Frame 1261154412.png',
+    features: [
+      'Personalized Diet Recommendations',
+      'Macro & Calorie Filters (Keto, Vegan, High-Protein)',
+      'Weekly Meal Subscriptions',
+      'Easy Re-ordering',
+      'Detailed Nutritional & Ingredient Information'
+    ],
+    testing: 'Ran usability testing and found some minor UI corrections which were implemented based on feedback (e.g., increasing the size of the checkbox while saving card details for better touch targets).',
+    learnings: 'Through this project, I learned that personalization plays a key role in improving user engagement, as people connect more with experiences tailored to their health goals and food preferences. Convenience emerged as another important factor, especially for working professionals, where features like weekly subscriptions and quick re-ordering save valuable time. I also realized how much clear and simple design impacts usability — even small improvements, like resizing a checkbox or ensuring proper contrast, can reduce friction. Highlighting healthy options such as high-protein, vegan, or keto meals made decision-making easier for users, while secure payments and reliable delivery proved essential in building trust. \n However, there are still a lot of inputs & features that could be added with proper testing and identifying the problem with the help of  large real-time user data.',
+    thankYouImage: '/Fiteats/frame11.jpg',
+    visuals: {
+      colors: ['#F0236A', '#000000', '#686868', '#D9D9D9', '#FFFFFF'],
+      typography: 'Poppins (Regular, Medium, Semibold)'
+    },
+    colorPaletteImage: '/Fiteats/frame10.jpg',
+    imageGroups: [
+      {
+        title: 'Mobile Application Screens',
+        description: 'Core screens designed for the FitEats mobile app experience.',
+        images: [
+          '/Fiteats/frame1.jpg',
+          '/Fiteats/frame2.jpg',
+          '/Fiteats/frame3.jpg',
+          '/Fiteats/frame4.jpg',
+          '/Fiteats/frame5.jpg',
+          '/Fiteats/frame6.jpg',
+          '/Fiteats/frame7.jpg'
+        ]
+      },
+      {
+        title: 'Light & Dark Mode',
+        description: 'The app supports both light and dark themes for user comfort.',
+        images: [
+          '/Fiteats/frame9.png',
+          '/Fiteats/frame8.png'
+        ]
+      },
+
+      {
+        title: 'Usability Testing',
+        description: 'Evaluating a digital product by testing it with real users to uncover design flaws and measure how easily they can complete tasks',
+        images: [
+          '/Fiteats/frame12.jpg'
+        ]
+      },
+    ]
+  },
+  retirewell: {
+    title: 'Retirewell',
+    subtitle: 'Retirement Calculator Web App',
+    heroImage: '/retirewell/Mockup_03.png',
+    overview: 'Retirewell is a web app designed to simplify retirement planning for young professionals and middle-aged individuals in India. It uses interactive calculators, sliders, and visual charts to help users estimate their future savings and expenses with ease. By offering clear insights and personalized recommendations, the app makes financial planning approachable for people without a finance background.',
+    role: 'UI/UX Designer',
+    duration: '1 Month',
+    problem: 'Most people in India, especially young professionals and middle-aged individuals, find retirement planning confusing and overwhelming. Existing retirement calculators and financial apps are either too technical, filled with complex financial terms, or lack personalized insights. As a result, users struggle to estimate how much they need to save, what plans to choose, and how to secure their financial future in a simple, guided way.',
+    targetAudience: 'Working professionals in India between the ages of 25 and 50 who want to secure their financial future but often find retirement planning confusing.',
+    goals: [
+      'Simplify retirement calculations',
+      'Provide personalized insights',
+      'Encourage early planning',
+      'Build trust and confidence',
+      'Deliver a smooth user experience'
+    ],
+    designProcess: ['Empathize', 'Define', 'Ideate', 'Design', 'Test'],
+    research: {
+      methodology: 'Qualitative research approach combining secondary research and user surveys/interviews (10 working professionals aged 25-50 surveyed, 5 interviews). Reviewed existing apps like PensionBox and Tata Moneyfy.',
+      insights: [
+        'Most users don\'t clearly understand how much they need to save.',
+        'Users struggle with "how much to save" and get confused by financial jargon.',
+        '50% prefer graphs and charts over text-heavy explanations.',
+        'High willingness to adopt if the app makes it simple and guided (40% very likely, 30% somewhat likely).'
+      ],
+      painPoints: [
+        'Confusing financial jargon (ROI, annuity, corpus).',
+        'Lack of clear, step-by-step answers on how much to save.',
+        'Generic results not personalized to age, lifestyle, or income.',
+        'Overwhelming interfaces with too much data.',
+        'Low trust factor (fear of biased product pushing).',
+        'Limited guidance for beginners.'
+      ],
+      image: '/retirewell/researchSurvey.png'
+    },
+    personas: [
+      {
+        name: 'Rakesh Mishra',
+        age: '28 Years old',
+        occupation: 'Marketing Executive',
+        location: 'Pune',
+        image: '/retirewell/user-persona1.png',
+        description: 'Rakesh just started earning well and wants to save smartly while enjoying life. Tech-savvy but lacks long-term financial knowledge.',
+        goals: ['Save systematically', 'Understand investment needed for early retirement', 'Use simple tech-based solutions'],
+        frustrations: ['Finance apps filled with jargon', 'Doesn\'t know how much is "enough"', 'Product-push apps confuse him']
+      },
+      {
+        name: 'Neha Patel',
+        age: '40 Years old',
+        occupation: 'Senior Professor',
+        location: 'Pune',
+        image: '/retirewell/user-persona2.png',
+        description: 'Neha is financially aware but busy. Has scattered investments and lacks a consolidated view of her retirement savings.',
+        goals: ['Track all investments in one place', 'Get clear visual projections', 'Receive trustworthy, unbiased guidance'],
+        frustrations: ['Using multiple apps to check investments', 'No "what-if" scenarios', 'Apps sell products instead of giving clarity']
+      }
+    ],
+    empathyMapImages: [
+      '/retirewell/empthy-map.png',
+      '/retirewell/empthy-map2.png'
+    ],
+    journeyMap: [
+      { step: 'Onboarding & Sign up', feelings: 'Curious but anxious', painPoints: 'Long forms, jargon-heavy inputs' },
+      { step: 'Sets age & expenses', feelings: 'Confused by finance terms', painPoints: 'No explanation of ROI, Corpus, Inflation' },
+      { step: 'Views charts/projections', feelings: 'Interested but uncertain', painPoints: 'Charts look technical, hard to relate' },
+      { step: 'Explores scenarios', feelings: 'Overwhelmed by choices', painPoints: 'Too many options, no personalization' }
+    ],
+    journeyMapImage: '/retirewell/user-journy-map.png',
+    competitiveAnalysis: 'Analyzed PensionBox, Tata Moneyfy, and Groww. Gaps found: lack of step-by-step guided planning, personalized lifestyle inputs, and jargon-free explanations.',
+    competitiveAnalysisImage: '/retirewell/cometetive-enalysis.png',
+    features: [
+      'Interactive Goal-Based & Contribution-Based Calculators',
+      'Visual Growth Breakdown Charts',
+      '"What If" Scenario Comparisons',
+      'Risk Assessment Questionnaire',
+      'Personalized Plan Generation (Conservative, Balanced, Aggressive)',
+      'Glossary for Jargon-free understanding',
+      'Progress Tracking against Goals'
+    ],
+    testing: 'Usability study revealed non-finance users struggled with terms like ROI, Corpus, and Inflation rate. Added a glossary section based on this feedback to enhance UX.',
+    userFlowImage: '/retirewell/userflow.png',
+    learnings: 'Designing for clarity, trust, and empathy is crucial in finance. Good design simplifies complexity and gives users confidence. Iterative design based on testing (like adding the glossary) makes the app much more user-friendly. User emotions must be at the center of design decisions.',
+    visuals: {
+      colors: ['#0074D9', '#1ABC9C', '#f5f5f5', '#000000', '#FFFFFF'],
+      typography: 'Nunito (Regular, Medium, Semibold)'
+    },
+    colorPaletteImage: '/retirewell/color-palatte.png',
+    imageGroups: [
+      {
+        title: 'Onboarding Experience',
+        description: 'Guided screens helping users set up their profile and preferences.',
+        images: [
+          '/retirewell/onboarding-screen1.png',
+          '/retirewell/onboarding-screen-2.png',
+          '/retirewell/onboarding-screen-3.png'
+        ]
+      },
+      {
+        title: 'Authentication',
+        description: 'Login and Sign-up flow for secure access.',
+        images: [
+          '/retirewell/screen-1.png',
+          '/retirewell/screen-2.png'
+        ]
+      },
+      {
+        title: 'Web Application Screens',
+        description: 'Core screens designed for the Retirewell web application including dashboards, calculators, and plans.',
+        images: [
+          '/retirewell/screen1.png',
+          '/retirewell/screen2.png',
+          '/retirewell/screen3.png',
+          '/retirewell/screen8.png',
+          '/retirewell/screen9.png',
+          '/retirewell/screen10.png',
+          '/retirewell/screen11.png',
+          '/retirewell/screen12.png',
+          '/retirewell/screen13.png',
+          '/retirewell/screen14.png',
+          '/retirewell/screen15.png',
+          '/retirewell/screen16.png',
+          '/retirewell/screen17.png',
+          '/retirewell/screen18.png',
+          '/retirewell/screen19.png',
+          '/retirewell/screen20.png'
+        ]
+      }
+    ]
+  },
+  talenlio: {
+    title: 'Talenlio Career Roadmap',
+    subtitle: 'Career Planning & Tracking Feature',
+    heroImage: '/images/talenlio.png',
+    overview: 'The Career Roadmap feature is designed to help users discover, plan, and track their professional journey across various career paths such as UX Design, Data Science, Product Management, and Marketing. The goal was to create an interactive and data-backed experience that guides users through every stage of their career - from beginner to expert.',
+    role: 'Product Designer',
+    duration: 'Not specified',
+    problem: 'Many learners and early professionals struggle to plan their career growth effectively. They often feel unsure about where to start, which skills to prioritize, and how to stay consistent while learning. Existing platforms fail to present the journey clearly, leaving users without a sense of direction or measurable progress.',
+    targetAudience: 'Learners and early professionals seeking structured guidance and career advancement.',
+    goals: [
+      'Provide clear insights on essential skills, tools, and courses',
+      'Show salary ranges, job demand, and growth potential',
+      'Integrate self-assessments for personalized recommendations',
+      'Make career planning structured, motivating, and user-friendly via progress tracking and badges'
+    ],
+    designProcess: ['Research', 'Wireframes', 'Hi-fi Designs', 'User Flow'],
+    research: {
+      methodology: 'Primary research via short user interviews with learners. Secondary research analyzing LinkedIn Learning, Coursera, Udemy, Glassdoor, and Naukri to identify career paths, skills, salaries, and demand.',
+      insights: [
+        'Users feel unsure where to start and what skills to prioritize.',
+        'Users struggle to stay consistent with learning.',
+        'Popular career paths follow a structured Beginner -> Expert journey, but platforms don\'t visualize this well.'
+      ],
+      painPoints: [
+        'Lack of structured guidance in existing platforms.',
+        'No measurable progress tracking.',
+        'Loss of motivation during long learning paths.'
+      ]
+    },
+    features: [
+      'Career Dashboard with multiple paths (UX Design, Dev, Marketing, Data Science)',
+      '4-Stage Roadmap (Beginner, Intermediate, Advanced, Expert)',
+      'Stage details: Duration, Skills, Tools, Recommended Courses',
+      'Career Overview metrics: Salary (India & Global), Job Growth',
+      'Gamification: Progress tracking, Badges, Motivational messaging',
+      'Skill Assessments to validate learning and provide next-step recommendations',
+      'Save for Later functionality for courses'
+    ],
+    learnings: 'The UX logic emphasizes simplicity, clarity, and engagement. Breaking the roadmap into 4 progressive stages allows learners to visualize growth. Minimal visual design with calm colors and motivational micro-interactions (badges, encouraging messages) significantly increases user engagement and retention. "Save for Later" ensures flexibility.',
+    visuals: {
+      colors: [],
+      typography: 'Modern Sans Serif'
+    }
+  }
+};
