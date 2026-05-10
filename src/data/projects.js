@@ -9,7 +9,7 @@ export const projects = [
     description: 'Designed the complete UX/UI from scratch — AI job-matching, employer dashboard, candidate profiles, and onboarding flows. Live at eployrs.com.',
     color: '#2A1B38',
     textColor: '#F8F7F4',
-    url: 'https://eployrs.com',
+    url: '/case-study/eployrs',
     span: 2,
   },
   {

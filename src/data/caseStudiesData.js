@@ -323,5 +323,131 @@ export const caseStudiesData = {
       colors: [],
       typography: 'Modern Sans Serif'
     }
+  },
+  eployrs: {
+    title: 'Eployrs',
+    subtitle: 'AI Hiring, Redesigned',
+    heroImage: '/eployrs/candidate/Home Page.jpg',
+    overview: 'Eployrs is an AI-powered workforce management and recruitment platform built to simplify hiring, boost team productivity, and optimize the entire employee lifecycle. Designed for modern teams, it connects job seekers with employers intelligently, cutting time-to-hire while improving candidate quality through smart AI matching.',
+    role: 'UI/UX Designer',
+    duration: '4 Months',
+    problem: 'Existing job platforms are slow, generic, and lack AI-driven personalization — frustrating both recruiters and job seekers.',
+    targetAudience: 'HR managers, recruiters, and job seekers in India\'s growing digital economy — aged 22–45, tech-comfortable.',
+    goals: [
+      'Smart resume ranking and candidate scoring to surface relevant profiles instantly',
+      'Eliminate back-and-forth with automated interview scheduling and calendar integration',
+      'Provide dashboards for team productivity and recruitment funnel analytics',
+      'Seamlessly integrate into existing HR tools and communication stacks'
+    ],
+    designProcess: ['Empathise', 'Define', 'Ideate', 'Design', 'Test'],
+    research: {
+      methodology: 'Conducted surveys and informal user interviews with 12 participants — a mix of HR professionals and active job seekers across Jaipur, Pune, and Bangalore.',
+      insights: [
+        '78% found current job platforms too slow or generic.',
+        '85% of recruiters want automated candidate ranking.',
+        '72% of job seekers don\'t get relevant job recommendations.',
+        '90% want integrated interview scheduling in the same platform.'
+      ],
+      painPoints: [
+        'Manual, time-consuming screening. Relevant candidates get buried without AI ranking.',
+        'Back-and-forth scheduling chaos relying on email threads and calls.',
+        'No personalised job discovery. Job seekers are shown generic listings.',
+        'Zero visibility into the hiring funnel. Recruiters lack real-time data.'
+      ]
+    },
+    researchStats: [
+      { label: 'AI-powered resume matching', percent: 85 },
+      { label: 'Automated interview scheduling', percent: 90 },
+      { label: 'Personalised job recommendations', percent: 80 },
+      { label: 'One-click application tracking', percent: 75 },
+      { label: 'Analytics & hiring dashboards', percent: 70 }
+    ],
+    personas: [
+      {
+        name: 'Priya Rathore',
+        age: '34 Years',
+        occupation: 'HR Manager',
+        location: 'Jaipur',
+        description: 'Priya works at a fast-growing SaaS startup. She needs to hire 10+ quality candidates per quarter and build a repeatable recruitment process.',
+        goals: ['Hire 10+ quality candidates per quarter', 'Reduce time-to-hire below 3 weeks', 'Build a repeatable, data-driven recruitment process'],
+        frustrations: ['Drowns in CVs with no intelligent filtering', 'Scheduling interviews eats up 30% of her week', 'No visibility on where candidates are in the pipeline']
+      },
+      {
+        name: 'Arjun Mehra',
+        age: '26 Years',
+        occupation: 'Software Developer',
+        location: 'Bangalore',
+        description: 'Arjun is an active job seeker aiming to land a senior developer role. He wants his tech stack to be accurately matched to job opportunities.',
+        goals: ['Land a senior developer role at a product company', 'Find jobs matched to his actual tech stack', 'Track all his applications in one place'],
+        frustrations: ['Job boards recommend roles that don\'t match his skills', 'No feedback after applying — applications disappear', 'Has to upload his CV to every platform separately']
+      }
+    ],
+    empathyMap: {
+      avatar: '/eployrs/eployrs-avatar.png',
+      says: [
+        '"I need to hire fast but I can\'t compromise on quality."',
+        '"Why does everything still require so many manual steps?"'
+      ],
+      thinks: [
+        'Worries she might be passing on great candidates lost in the CV pile.',
+        'Believes AI can genuinely improve hiring if it\'s easy to trust and use.'
+      ],
+      does: [
+        'Manually scrolls through 50+ profiles every morning.',
+        'Coordinates interviews via WhatsApp, email, and phone calls.',
+        'Maintains a spreadsheet to track candidates and stages.'
+      ],
+      feels: [
+        'Overwhelmed by repetitive tasks that feel like they should be automated.',
+        'Pressured by hiring deadlines from management.',
+        'Hopeful that smarter tools could free her to focus on culture fit and team building.'
+      ]
+    },
+    competitiveAnalysis: 'Analysed leading recruitment platforms like Naukri.com, LinkedIn, and Internshala. Identified critical gaps in advanced AI resume matching, automated scheduling, and hiring analytics dashboards, which Eployrs uniquely addresses.',
+    features: [
+      'AI Resume Matching and Candidate Fit Score',
+      'Automated Interview Scheduling',
+      'Hiring Analytics Dashboard',
+      'HR Tool Integration',
+      'Unified Application Tracker for Job Seekers',
+      'Creative AI-first Role Discovery'
+    ],
+    testing: 'Usability testing revealed users were skeptical of the raw "87% match" score. Added a match breakdown tooltip (skills, experience, location) to build trust. Moved the "Schedule Interview" CTA to a sticky bottom bar on candidate profiles to increase visibility and task completion.',
+    userFlowDescription: 'Mapped core flows for both user types. Recruiter Flow: Sign up → Post job with AI assist → Review AI-ranked candidates → One-click schedule interview → View analytics. Job Seeker Flow: Build smart profile → Get AI recommendations → View fit score & apply → Track application status.',
+    learnings: 'Designing a dual-sided platform required separate mental models. Key takeaways: AI needs transparency to earn trust. Visibility reduces job-seeker anxiety. Automation must feel controllable for recruiters. Small UI details like sticky CTAs matter enormously.',
+    visuals: {
+      colors: ['#1A56FF', '#0A0A0A', '#EEF1FF', '#0ABF6F', '#7A7A7A', '#FFFFFF'],
+      typography: 'Syne (Headings), DM Sans (Body/UI)'
+    },
+    imageGroups: [
+      {
+        title: 'Job Seeker Experience',
+        description: 'Candidate flows, showing smart profile building, AI job recommendations, and centralized application tracking.',
+        images: [
+          '/eployrs/candidate/Home Page.jpg',
+          '/eployrs/candidate/Log In Page Candidate.jpg',
+          '/eployrs/candidate/Jobseeker Dashboard.jpg',
+          '/eployrs/candidate/Explore Jobs.jpg',
+          '/eployrs/candidate/Application Tracker.jpg',
+          '/eployrs/candidate/Interview Scheduled.jpg',
+          '/eployrs/candidate/My Profile.jpg',
+          '/eployrs/candidate/Settings.jpg'
+        ]
+      },
+      {
+        title: 'Recruiter Experience',
+        description: 'Tools for employers including AI-assisted job posts, resume match ranking, and comprehensive hiring pipelines.',
+        images: [
+          '/eployrs/recruiter/Sign Up Precruiter 1.jpg',
+          '/eployrs/recruiter/Dashboard Recruiter.jpg',
+          '/eployrs/recruiter/Job Description Talent Outreach.jpg',
+          '/eployrs/recruiter/User [Profile].jpg',
+          '/eployrs/recruiter/Hiring Pipeline.png',
+          '/eployrs/recruiter/Interview Scheduled.jpg',
+          '/eployrs/recruiter/Admin Management.jpg',
+          '/eployrs/recruiter/Settings.jpg'
+        ]
+      }
+    ]
   }
 };
