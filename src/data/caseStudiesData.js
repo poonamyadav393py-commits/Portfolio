@@ -232,7 +232,7 @@ export const caseStudiesData = {
     ],
     testing: 'Usability study revealed non-finance users struggled with terms like ROI, Corpus, and Inflation rate. Added a glossary section based on this feedback to enhance UX.',
     userFlowImage: '/retirewell/userflow.png',
-    learnings: 'Designing for clarity, trust, and empathy is crucial in finance. Good design simplifies complexity and gives users confidence. Iterative design based on testing (like adding the glossary) makes the app much more user-friendly. User emotions must be at the center of design decisions.',
+    learnings: 'Working on this project taught me the importance of designing for clarity, trust, and empathy—especially in domains like finance where users often feel overwhelmed. I realized that good design isn’t just about creating attractive interfaces, but about simplifying complexity and giving users the confidence to make informed decisions. This project also helped me refine my process of combining user research, competitor analysis, and iterative design to build solutions that are both practical and user-friendly. Most importantly, I learned how crucial it is to keep the user’s emotions and mindset at the center of every design decision.',
     visuals: {
       colors: ['#0074D9', '#1ABC9C', '#f5f5f5', '#000000', '#FFFFFF'],
       typography: 'Nunito (Regular, Medium, Semibold)'
@@ -277,7 +277,21 @@ export const caseStudiesData = {
           '/retirewell/screen19.png',
           '/retirewell/screen20.png'
         ]
-      }
+      },
+      {
+        title: ' Dark Mode',
+        description: 'The app supports both light and dark themes for user comfort.',
+        images: [
+          '/retirewell/dark.jpg'
+        ]
+      },
+      {
+        title: 'Usability Testing',
+        description: 'Evaluating a digital product by testing it with real users to uncover design flaws and measure how easily they can complete tasks',
+        images: [
+          '/retirewell/usability testing.jpg'
+        ]
+      },
     ]
   },
   talenlio: {
@@ -404,6 +418,7 @@ export const caseStudiesData = {
       ]
     },
     competitiveAnalysis: 'Analysed leading recruitment platforms like Naukri.com, LinkedIn, and Internshala. Identified critical gaps in advanced AI resume matching, automated scheduling, and hiring analytics dashboards, which Eployrs uniquely addresses.',
+    competitiveAnalysisImage: '/eployrs/competative.png',
     features: [
       'AI Resume Matching and Candidate Fit Score',
       'Automated Interview Scheduling',

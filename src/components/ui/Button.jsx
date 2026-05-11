@@ -16,6 +16,7 @@ export function Button({ children, variant = 'filled', className = '', onClick, 
     filled: 'bg-accent text-bg hover:bg-opacity-90 hover:scale-105 shadow-lg shadow-accent/20',
     outline: 'border-2 border-primary text-primary hover:bg-primary hover:text-bg',
     ghost: 'border-2 border-transparent text-primary hover:bg-primary/10 hover:text-accent',
+    resume: 'border-2 border-accent text-accent hover:bg-accent hover:text-bg shadow-[0_0_15px_rgba(179,136,255,0.2)] hover:shadow-[0_0_25px_rgba(179,136,255,0.4)] hover:scale-105',
   };
 
   const cls = `${base} ${variants[variant]} ${className}`;

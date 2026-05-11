@@ -8,6 +8,7 @@ import { Badge } from '../components/ui/Badge';
 import { Button } from '../components/ui/Button';
 import UserFlowDiagram from '../components/UserFlowDiagram';
 import RetirewellUserFlow from '../components/RetirewellUserFlow';
+import EployrsUserFlow from '../components/EployrsUserFlow';
 
 function SectionTitle({ children }) {
   const [ref, visible] = useInView(0.1);
@@ -552,6 +553,8 @@ export default function CaseStudyDetail() {
             </p>
             {slug === 'retirewell' ? (
               <RetirewellUserFlow />
+            ) : slug === 'eployrs' ? (
+              <EployrsUserFlow />
             ) : data.userFlowImage ? (
               <div className="flex justify-center">
                 <AnimatedImage

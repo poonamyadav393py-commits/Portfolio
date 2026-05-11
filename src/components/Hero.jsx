@@ -183,6 +183,14 @@ export default function Hero() {
           >
             <Button variant="filled" href="#work">View Work</Button>
             <Button variant="outline" href="#contact">Let's Talk</Button>
+            <Button variant="resume" href="/Poonam Updated Resume.pdf" target="_blank" rel="noopener noreferrer" download className="group">
+              <span className="flex items-center gap-2">
+                Resume
+                <svg className="w-4 h-4 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+              </span>
+            </Button>
           </div>
         </div>
       </div>
