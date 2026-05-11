@@ -123,9 +123,26 @@ export default function CaseStudyDetail() {
           <h1 className="font-serif text-5xl md:text-7xl text-primary mb-6 leading-tight">
             {data.title}
           </h1>
-          <p className="text-xl md:text-2xl text-accent font-medium mb-12">
-            {data.subtitle}
-          </p>
+<div className="flex flex-col md:flex-row md:items-center gap-6 mb-12">
+            <p className="text-xl md:text-2xl text-accent font-medium m-0">
+              {data.subtitle}
+            </p>
+            {data.liveLink && (
+              <a 
+                href={data.liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-accent/10 border border-accent/50 text-accent hover:bg-accent hover:text-bg transition-colors w-fit text-sm font-semibold shadow-[0_0_15px_rgba(179,136,255,0.15)] hover:shadow-[0_0_20px_rgba(179,136,255,0.4)]"
+              >
+                Visit Website
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            )}
+          </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-8 border-y border-white/10">
             <div>

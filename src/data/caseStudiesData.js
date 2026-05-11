@@ -192,7 +192,7 @@ export const caseStudiesData = {
         age: '28 Years old',
         occupation: 'Marketing Executive',
         location: 'Pune',
-        image: '/retirewell/user-persona1.png',
+        image: '/retirewell/user-persona2.png',
         description: 'Rakesh just started earning well and wants to save smartly while enjoying life. Tech-savvy but lacks long-term financial knowledge.',
         goals: ['Save systematically', 'Understand investment needed for early retirement', 'Use simple tech-based solutions'],
         frustrations: ['Finance apps filled with jargon', 'Doesn\'t know how much is "enough"', 'Product-push apps confuse him']
@@ -202,7 +202,7 @@ export const caseStudiesData = {
         age: '40 Years old',
         occupation: 'Senior Professor',
         location: 'Pune',
-        image: '/retirewell/user-persona2.png',
+        image: '/retirewell/user-persona1.png',
         description: 'Neha is financially aware but busy. Has scattered investments and lacks a consolidated view of her retirement savings.',
         goals: ['Track all investments in one place', 'Get clear visual projections', 'Receive trustworthy, unbiased guidance'],
         frustrations: ['Using multiple apps to check investments', 'No "what-if" scenarios', 'Apps sell products instead of giving clarity']
@@ -521,8 +521,6 @@ export const caseStudiesData = {
     ],
     designProcess: ['Wireframing', 'Visual Design'],
     userFlow: false,
-    images: [
-      '/lamaEdge/LamaEdge.jpg'
-    ]
+    liveLink: 'https://lamaedge.com'
   }
 };
