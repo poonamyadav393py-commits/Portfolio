@@ -297,7 +297,7 @@ export const caseStudiesData = {
   talenlio: {
     title: 'Talenlio Career Roadmap',
     subtitle: 'Career Planning & Tracking Feature',
-    heroImage: '/images/talenlio.png',
+    heroImage: '/talenlio/Mockup_02.jpg',
     overview: 'The Career Roadmap feature is designed to help users discover, plan, and track their professional journey across various career paths such as UX Design, Data Science, Product Management, and Marketing. The goal was to create an interactive and data-backed experience that guides users through every stage of their career - from beginner to expert.',
     role: 'Product Designer',
     duration: 'Not specified',
@@ -332,11 +332,51 @@ export const caseStudiesData = {
       'Skill Assessments to validate learning and provide next-step recommendations',
       'Save for Later functionality for courses'
     ],
-    learnings: 'The UX logic emphasizes simplicity, clarity, and engagement. Breaking the roadmap into 4 progressive stages allows learners to visualize growth. Minimal visual design with calm colors and motivational micro-interactions (badges, encouraging messages) significantly increases user engagement and retention. "Save for Later" ensures flexibility.',
+    learnings: 'The Career Roadmap feature was designed with a clear focus on guiding users through a structured, motivational learning journey. The UX logic emphasizes simplicity, clarity, and engagement. Starting from the Career Dashboard, users can easily explore various paths and select one that matches their interest - for example, UI/UX Design. \n Once inside the chosen career, the roadmap is broken into four progressive stages (Beginner → Expert), allowing learners to visualize their growth path. Each stage highlights duration, key skills, tools, and recommended external courses, giving users both direction and flexibility. The inclusion of “Mark as Completed” and a progress bar supports a sense of accomplishment and progress tracking. \n The interface follows a minimal and clean visual design, using a calm, modern color palette with accent highlights to maintain focus and consistency. Motivational micro-interactions such as badges, encouraging messages (“You’re doing amazing — keep the momentum going!”) and stage completion highlights were added to increase user engagement and retention. \nAfter completing all stages, users are guided to a final assessment , reinforcing readiness and offering next-step clarity. The “Save for Later” option ensures flexibility — allowing users to revisit postponed courses directly within the same roadmap without breaking their learning continuity. \n The combination of simple UI, visual hierarchy, and motivational elements ensures that learning feels intuitive, achievable, and rewarding throughout the user’s journey.',
     visuals: {
       colors: [],
       typography: 'Modern Sans Serif'
-    }
+    },
+    imageGroups: [
+      {
+        title: 'Low Fidelity Wireframes',
+        description: 'Supporting flow screens and empty states.',
+        images: [
+          '/talenlio/Desktop - 1.png',
+          '/talenlio/Desktop - 2.png',
+          '/talenlio/Desktop - 3.png',
+          '/talenlio/Desktop - 4.png',
+          '/talenlio/Desktop - 5.png',
+        ]
+      },
+      {
+        title: 'High Fidelity Wireframes',
+        description: 'Core screens guiding the user from onboarding to their personalized career dashboard.',
+        images: [
+          '/talenlio/Desktop - 37.png',
+          '/talenlio/Desktop - 38.png',
+          '/talenlio/Desktop - 39.png',
+        ]
+      },
+      {
+        title: 'Roadmap & Progress',
+        description: 'Detailed stage-by-stage learning paths and progress tracking.',
+        images: [
+          '/talenlio/Desktop - 40.png',
+          '/talenlio/Desktop - 41.png',
+          '/talenlio/Desktop - 42.png',
+        ]
+      },
+      {
+        title: 'Assessments & Recommendations',
+        description: 'Skill assessments leading to tailored course recommendations.',
+        images: [
+          '/talenlio/Desktop - 48.png',
+          '/talenlio/Desktop - 49.png',
+          '/talenlio/Desktop - 50.png',
+        ]
+      }
+    ]
   },
   eployrs: {
     title: 'Eployrs',
@@ -463,6 +503,26 @@ export const caseStudiesData = {
           '/eployrs/recruiter/Settings.jpg'
         ]
       }
+    ]
+  },
+  lamaedge: {
+    title: 'LamaEdge',
+    subtitle: 'Landing Page Design',
+    heroImage: '/lamaEdge/LamaEdge.jpg',
+    overview: 'Lama Edge is a strategic business platform where companies of all stages connect, collaborate, and grow through integrated media, networking, and branding solutions.',
+    role: 'UI/UX Designer',
+    duration: '15 Days',
+    problem: 'Creating a landing page that effectively communicates the value of a strategic business platform while maintaining a high conversion rate and building trust.',
+    targetAudience: 'Companies of all stages seeking networking, branding, and growth solutions.',
+    goals: [
+      'Design a high-conversion layout',
+      'Incorporate compelling data visualization',
+      'Build trust and credibility for the platform'
+    ],
+    designProcess: ['Wireframing', 'Visual Design'],
+    userFlow: false,
+    images: [
+      '/lamaEdge/LamaEdge.jpg'
     ]
   }
 };

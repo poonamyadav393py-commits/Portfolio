@@ -50,14 +50,14 @@ export const projects = [
   },
   {
     id: '05',
-    slug: 'cryptomoney',
-    title: 'CryptoMoney',
+    slug: 'lamaedge',
+    title: 'LamaEdge',
     subtitle: 'Landing Page Design',
     tags: ['Landing Page', 'Fintech', 'Conversion UX'],
-    description: 'Trust-building crypto investment platform with compelling data visualization and a high-conversion layout.',
+    description: 'Lama Edge is a strategic business platform where companies of all stages connect, collaborate, and grow through integrated media, networking, and branding solutions.',
     color: '#1E152A',
     textColor: '#F8F7F4',
-    url: '#',
+    url: '/case-study/lamaedge',
     span: 1,
   },
 ];
