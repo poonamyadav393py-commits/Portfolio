@@ -26,5 +26,5 @@ export const certifications = [
   'Figma UI UX Design Essentials',
   'Figma UI/UX Design: Web and App Design',
   'Adobe CC Masterclass: Photoshop & Illustrator',
-  'UX Design: Get Hired Faster as a UX Designer',
+  'Using AI Tools for UX Design By Linkedin Learning',
 ];
