@@ -53,7 +53,7 @@ export const projects = [
     slug: 'lamaedge',
     title: 'LamaEdge',
     subtitle: 'Landing Page Design',
-    tags: ['Landing Page', 'Fintech', 'Conversion UX'],
+    tags: ['Landing Page', 'PR'],
     description: 'Lama Edge is a strategic business platform where companies of all stages connect, collaborate, and grow through integrated media, networking, and branding solutions.',
     color: '#1E152A',
     textColor: '#F8F7F4',
