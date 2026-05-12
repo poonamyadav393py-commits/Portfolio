@@ -34,8 +34,13 @@ function CustomCursor() {
   const ringPos = useRef({ x: 0, y: 0 });
   const animRef = useRef(null);
 
+  // Don't render on touch devices
+  const isTouchDevice =
+    typeof window !== 'undefined' &&
+    (window.matchMedia('(hover: none)').matches || 'ontouchstart' in window);
+
   useEffect(() => {
-    // Respect reduced motion
+    if (isTouchDevice) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     const onMove = (e) => {
@@ -46,7 +51,6 @@ function CustomCursor() {
       }
     };
 
-    // Smooth lagging ring
     const lerp = (a, b, t) => a + (b - a) * t;
     const animate = () => {
       ringPos.current.x = lerp(ringPos.current.x, pos.current.x, 0.12);
@@ -64,7 +68,9 @@ function CustomCursor() {
       window.removeEventListener('mousemove', onMove);
       cancelAnimationFrame(animRef.current);
     };
-  }, []);
+  }, [isTouchDevice]);
+
+  if (isTouchDevice) return null; // 👈 Skip rendering entirely
 
   return (
     <>

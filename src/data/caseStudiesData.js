@@ -459,6 +459,7 @@ export const caseStudiesData = {
     },
     competitiveAnalysis: 'Analysed leading recruitment platforms like Naukri.com, LinkedIn, and Internshala. Identified critical gaps in advanced AI resume matching, automated scheduling, and hiring analytics dashboards, which Eployrs uniquely addresses.',
     competitiveAnalysisImage: '/eployrs/competative.png',
+    designSystemImage: '/eployrs/typography.jpg',
     features: [
       'AI Resume Matching and Candidate Fit Score',
       'Automated Interview Scheduling',

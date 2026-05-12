@@ -123,12 +123,12 @@ export default function CaseStudyDetail() {
           <h1 className="font-serif text-5xl md:text-7xl text-primary mb-6 leading-tight">
             {data.title}
           </h1>
-<div className="flex flex-col md:flex-row md:items-center gap-6 mb-12">
+          <div className="flex flex-col md:flex-row md:items-center gap-6 mb-12">
             <p className="text-xl md:text-2xl text-accent font-medium m-0">
               {data.subtitle}
             </p>
             {data.liveLink && (
-              <a 
+              <a
                 href={data.liveLink}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -477,9 +477,9 @@ export default function CaseStudyDetail() {
             </div>
 
             <div className="space-y-32 md:space-y-48">
-              {(Array.isArray(data.empathyMap || data.empathyMaps) 
-                  ? (data.empathyMap || data.empathyMaps) 
-                  : [data.empathyMap || data.empathyMaps]
+              {(Array.isArray(data.empathyMap || data.empathyMaps)
+                ? (data.empathyMap || data.empathyMaps)
+                : [data.empathyMap || data.empathyMaps]
               ).map((mapData, index) => (
                 <div key={index} className="relative max-w-5xl mx-auto py-12 px-4">
                   {/* Dashed Grid Lines - Only visible on MD and up */}
@@ -601,6 +601,21 @@ export default function CaseStudyDetail() {
                   <p className="text-white/90 font-medium">{feature}</p>
                 </div>
               ))}
+            </div>
+          </Section>
+        )}
+
+        {/*Design System*/}
+        {data.designSystemImage && (
+          <Section id="design-system">
+            <SectionTitle>Design System</SectionTitle>
+            <div className="flex justify-center">
+              <AnimatedImage
+                src={data.designSystemImage}
+                alt="Design System"
+                onClick={() => openModal(data.designSystemImage)}
+                wrapperClassName="max-w-4xl w-full"
+              />
             </div>
           </Section>
         )}
