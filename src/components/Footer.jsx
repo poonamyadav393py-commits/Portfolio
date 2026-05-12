@@ -5,7 +5,7 @@ import React from 'react';
 const socials = [
   { icon: <Mail className="w-4 h-4" />, href: 'mailto:poonamyadav393.py@gmail.com', label: 'Email Poonam Yadav' },
   { icon: <Linkedin className="w-4 h-4" />, href: 'https://linkedin.com/in/poonamyadav24', label: 'Poonam Yadav on LinkedIn' },
-  { icon: <Globe className="w-4 h-4" />, href: 'https://designwithpoonam.com', label: 'designwithpoonam.com' },
+  { icon: <Globe className="w-4 h-4" />, href: 'https://designwithpoonam.in', label: 'designwithpoonam.in' },
 ];
 
 export default function Footer() {

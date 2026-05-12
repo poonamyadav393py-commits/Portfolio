@@ -107,7 +107,7 @@ export default function Contact() {
               {[
                 { icon: <Mail className="w-4 h-4" />, label: 'Email', value: 'poonamyadav393.py@gmail.com', href: 'mailto:poonamyadav393.py@gmail.com' },
                 { icon: <Phone className="w-4 h-4" />, label: 'Phone', value: '+91 96733 33071', href: 'tel:+919673333071' },
-                { icon: <Globe className="w-4 h-4" />, label: 'Website', value: 'designwithpoonam.com', href: 'https://designwithpoonam.com' },
+                { icon: <Globe className="w-4 h-4" />, label: 'Website', value: 'designwithpoonam.in', href: 'https://designwithpoonam.in' },
                 { icon: <Linkedin className="w-4 h-4" />, label: 'LinkedIn', value: 'linkedin.com/in/poonamyadav24', href: 'https://linkedin.com/in/poonamyadav24' },
               ].map((item) => (
                 <a

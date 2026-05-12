@@ -503,7 +503,8 @@ export const caseStudiesData = {
           '/eployrs/recruiter/Settings.jpg'
         ]
       }
-    ]
+    ],
+    liveLink: 'https://eployrs.com'
   },
   lamaedge: {
     title: 'LamaEdge',
